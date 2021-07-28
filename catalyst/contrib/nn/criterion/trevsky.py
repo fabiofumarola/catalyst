@@ -9,7 +9,7 @@ from catalyst.metrics.functional import trevsky
 
 class TrevskyLoss(nn.Module):
     """The trevsky loss.
-    TrevskyIndex = TP / (TP + alpha * FN + betta * FP)
+    TrevskyIndex = TP / (TP + alpha * FN + beta * FP)
     TrevskyLoss = 1 - TrevskyIndex
     """
 
